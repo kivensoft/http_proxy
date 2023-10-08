@@ -1,0 +1,25 @@
+# httpproxy -- http proxy server
+简单快速的http反向代理
+
+---
+#### 项目地址
+<https://github.com/kivensoft/http_proxy>
+
+###### 技术框架
+- rust 1.65+ 媲美C语言的强类型开发语言
+- tokio 1.26+ 目前最流行也是性能最好的异步io运行时
+- hyper 0.14+ http底层协议库，是众多三方web框架使用的基础库
+- serde_json 1.0+ 最流行也是速度最快的json序列化库
+- anyhow 1.0+ 最流行的错误处理库，增强标准库的错误处理
+- log 0.4+ 日志门面库，rust标准库
+- async-trait 0.1+ 支持异步函数的trait扩展库
+- lazy_static 1.4+ 最流行的静态变量初始化扩展库
+- asynclog 简单的异步日志库，采用独立线程进行日志输出
+
+---
+###### 源代码下载
+`git clone git@github.com:kivensoft/http_proxy.git`
+###### 编译
+`cargo build`
+###### 运行
+`httpproxy`
